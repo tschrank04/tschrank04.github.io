@@ -1,24 +1,43 @@
 body {
-    background:rgba(140, 226, 143, 0.603);
+    background:rgba(31, 208, 37, 0.603);
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .assignment {
-display:flex;
-padding:10px;
-color:rgba(148,237,152,0.603);
+    width:22%;
+    padding:10px;
+    margin:10px;
+    padding:20px 10px;
+    color:rgba(3, 7, 3, 0.603);
+    background-color: rgb(161, 255, 169);
+    border-radius:5px;
 }
 
 .assignment img {
     width:200px;
     padding:10px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
-    color: rgb(22, 68, 16);
+    color: rgb(8, 45, 11);
     text-align:center;
 }
 
 a{
     text-decoration:none;
+}
+
+p{
+    color:rgb(8, 45, 11);
+}
+
+h2 {
+    text-align:center;
 }
